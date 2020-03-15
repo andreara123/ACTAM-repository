@@ -1,6 +1,40 @@
-#circle1 {
-    width: 100px;
+#drum-machine {
+    background: lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+  }
+  
+  .button {
+    width: 50px;
     height: 100px;
+    background: grey;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px;
+    border: 3px solid red;
+  }
+  
+  .selected-button {
+    border-color: green;
+  }
+  
+  .active-beat {
+    background-color: lightgreen;
+  }
+  
+  .speaker {
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
-    background-color: red;
-}
+    background: white;
+    border: 2px solid grey;
+  }
+  
+  .speaker-on {
+    background: blue;
+    border-color: darkblue;
+  }

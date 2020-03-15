@@ -1,0 +1,25 @@
+  body {
+    background-color: #757b80;
+  }
+  
+  .button {
+    height: 130px;
+    width: 35px;
+    border-radius: 5px;
+    margin: 3px;
+    display: inline-block;
+    box-shadow: 2 px 0 3 px rgba(0,0,0,0.1) inset,-5 px 5 px 20 px rgba(0,0,0,0.2) inset,0 0 3 px rgba(0,0,0,0.2);
+    background:linear-gradient(to bottom,#fff 0%,#e9e9e9 100%)
+  }
+  
+  .color-white {
+    background: rgb(245, 222, 222);
+  }
+  
+  .color-black {
+    background:black;
+  }
+
+  .a,.g,.f,.d,.c {
+    margin:0 0 0 -10px
+  }
